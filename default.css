@@ -1,0 +1,20 @@
+html{
+	width:100vw;
+	height:100vw;
+	background-color: rgb(120,120,120);
+}body{
+	background-color:white;
+	padding: 0 5vw;
+	width: 70vw;
+	margin: 2vw auto 0 auto;
+	border-radius:8px;
+}
+.error,.message{
+	text-align:center;
+}
+.error{
+	border:red solid 2px;	
+}
+.message{
+	border:blue solid 2px;	
+}

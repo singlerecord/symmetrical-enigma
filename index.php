@@ -5,19 +5,20 @@
 	/* includes */
 	require_once "php_toolbox/toolbox.php";
 	require_once "singlerecord.php";
-	/* globals */
-	$db = new singlerecord_sql();
-	if(isset($_POST["user"])){
-		$user = $_POST["user"];
-		print_r($user);
+	require_once "feedback.php";
+	if(!isset($_SESSION)){
+		session_start();
+		if(!isset($_SESSION["singlerecord"])){
+			$_SESSION["singlerecord"] = Array();
+		}	
 	}
 ?>
-<form action="index.php" method="post">
-	<label>
-		username:<input type="text" placeholder="username" name="user[username]" id="user[username]" />	
-	</label>
-	<label>
-		password:<input type="password" id="user[password]" name="user[password]"/>	
-	</label>
-	<input type="submit">
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="default.css"/>
+</head>
+<body>
+	<?php include "index.logic.php"; ?>
+</body>
+</html>

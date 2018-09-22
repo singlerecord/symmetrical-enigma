@@ -2,12 +2,22 @@ html{
 	width:100vw;
 	height:100vw;
 	background-color: rgb(120,120,120);
-}body{
+}
+body{
 	background-color:white;
-	padding: 0 5vw;
+	padding: 3vw 5vw;
 	width: 70vw;
 	margin: 2vw auto 0 auto;
 	border-radius:8px;
+}
+table#data{
+	border:1px solid black;
+}
+td{
+	border:1px solid black;
+}
+tr{
+	border:1px blue solid;
 }
 .error,.message{
 	text-align:center;

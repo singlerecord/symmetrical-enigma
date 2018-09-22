@@ -6,7 +6,7 @@
 	require_once "php_toolbox/toolbox.php";
 	require_once "singlerecord.php";
 	require_once "feedback.php";
-	// require_once "restricted.php";
+	require_once "restricted.php";
 ?>
 <!DOCTYPE html>
 <html>

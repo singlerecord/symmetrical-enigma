@@ -1,15 +1,21 @@
 <?php
 	function login_user($userid,$username){
+		if(!isset($_SESSION)){
+			session_start();
+		}	
 		$_SESSION["loggedin"] = TRUE;
 		$_SESSION["userid"] = $userid;
 		$_SESSION["username"] = $username;	
 		echo msg_num("user",1); 
 	}
 	function logout(){
+		if(!isset($_SESSION)){
+			session_start();
+		}	
 		$_SESSION["loggedin"] = NULL;
+		$_SESSION["username"] = NULL;
 		$_SESSION["userid"] = NULL;
-		$_SESSION["username"] = NULL;	
-		echo msg_num("user",2);	
+		echo msg_num("user",2);
 	}
 	$db = new singlerecord_sql();
 	if(isset($_POST["register"])){
@@ -43,12 +49,12 @@
 	if(isset($_POST["logout"])){
 		logout();
 	}   
-	if(isset($_SESSION)){
-		if(isset($_SESSION["loggedin"])){
-			include "loggedin.nav.php";	
-		}else{
-			include "login.form.php";
-		}
+		
+	if(!isset($_SESSION)){
+		session_start();
+	}	
+	if(isset($_SESSION["loggedin"])){
+		include "loggedin.nav.php";	
 	}else{
 		include "login.form.php";
 	}

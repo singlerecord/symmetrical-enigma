@@ -1,15 +1,25 @@
 <?php
-	$datumid = $_POST["datum"]["id"];
+	// access to this page
+	if(!isset($_POST["datum"]["id"])){
+		if(!isset($_SESSION["userid"])){
+			header("Location:index.php");
+		}else{
+			header("Location:profile.php");
+		}
+	}	
 	$userid = $_SESSION["userid"];
-	$datum = $db->datum_get($userid,$datumid);
+	$id = $_POST["datum"]["id"];
+	// action 
+	if(isset($_POST["update"])){
+		$datum = Array(
+			"name"=>$_POST["datum"]["name"],
+			"value"=>$_POST["datum"]["value"]
+		);
+		$db->datum_update($userid,$id,$datum["name"],$datum["value"]);	
+	}
+	$datum = $db->datum_get($userid,$id);
+	// content
+	include "datum.edit.update.form.php";
+	include "datum.edit.access.list.php";
+	?>
 	
-?>
-	<form action="" method="post">
-		<label for="">
-			<input type="text" name="datum[name]" id="datum[name]" value="<?php echo $datum["name"];?>"/>
-			<input type="text" name="datum[value]" id="datum[value]" value="<?php echo $datum["value"];?>"/>
-			<input type="submit" name="update" id="update" value="Update"/>
-		</label>	
-	</form>
-	
-

@@ -6,8 +6,8 @@
 	require_once "php_toolbox/toolbox.php";
 	require_once "singlerecord.php";
 	require_once "feedback.php";
+	require_once "restricted.php";
 	$db = new singlerecord_sql();
-	session_start();
 	$userid = $_SESSION["userid"];
 	$dname = $_POST["datum"]["name"];
 	$dvalue = $_POST["datum"]["value"];

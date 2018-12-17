@@ -7,6 +7,7 @@
 	require_once "singlerecord.php";
 	require_once "feedback.php";
 	// require_once "restricted.php";
+	$db = new singlerecord_sql();
 ?>
 <!DOCTYPE html>
 <html>

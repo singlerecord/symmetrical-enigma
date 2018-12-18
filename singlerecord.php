@@ -14,16 +14,6 @@
 				)
 			);
 		}
-		public function datum_get_accessors($datumid){
-			$query = 'SELECT * FROM access ';
-			$query .= 'WHERE access.datum_id = :datumid;'; 
-			return $this->run_query($query,
-				Array(
-					':datumid' => $datumid	
-				),
-				"fetchAll"
-			);
-		}
 		public function datum_update($userid,$id,$name,$value){
 			$query = 'UPDATE datum SET name = :name, value = :value WHERE user_id = :userid AND id = :id;';
 			return $this->run_query($query,
@@ -34,6 +24,14 @@
 					":id"=>$id
 				)
 			);
+		}
+		public function datum_get_requests($datum_id){
+			$query = 'SELECT * FROM datum_request WHERE datum_id = :datum_id;';
+			return $this->run_query($query,
+				Array(
+					":datum_id"=>$datum_id
+				),"fetchAll"
+			);	
 		}
 		public function datum_get($userid,$id){
                         $query = 'SELECT name,value FROM datum WHERE user_id = :userid AND id = :id';

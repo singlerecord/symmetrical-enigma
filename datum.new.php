@@ -3,10 +3,10 @@
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 	/* includes */
-	require_once "php_toolbox/toolbox.php";
-	require_once "singlerecord.php";
-	require_once "feedback.php";
-	require_once "restricted.php";
+        require_once "endpoints.php";
+        require_once toolbox();
+        require_once singlerecord();
+        require_once restricted();
 	$db = new singlerecord_sql();
 	$user_id = $_SESSION["userid"];
 	$name = $_POST["datum"]["name"];

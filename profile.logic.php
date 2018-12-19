@@ -1,5 +1,4 @@
 <?php
-	require "endpoints.php";	
 	// account details
 	$userid = $_SESSION["userid"];
 		// edit

@@ -8,9 +8,7 @@
 	require_once "feedback.php";
 	require_once "restricted.php";
 	$db = new singlerecord_sql();
-	$user_id = $_SESSION["userid"];
-	$name = $_POST["datum"]["name"];
-	$value = $_POST["datum"]["value"];
-	$db->datum_insert($user_id,$name,$value);
+	$datum_id = $_POST["datum"]["id"];
+	$db->datum_delete($datum_id);
 	header("Location:profile.php");
 ?>

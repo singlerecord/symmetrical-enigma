@@ -1,12 +1,5 @@
 <?php
-	// access to this page
-	if(!isset($_POST["datum"]["id"])){
-		if(!isset($_SESSION["userid"])){
-			header("Location:index.php");
-		}else{
-			header("Location:profile.php");
-		}
-	}	
+	// datum id is defined
 	$user_id = $_SESSION["userid"];
 	$datum_id = $_POST["datum"]["id"];
 	// action 
@@ -16,6 +9,7 @@
 			"value"=>$_POST["datum"]["value"]
 		);
 		$db->datum_update($user_id,$datum_id,$datum["name"],$datum["value"]);	
+	}else{
 	}
 	$datum = $db->datum_get($user_id,$datum_id);
 	// content

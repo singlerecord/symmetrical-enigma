@@ -5,7 +5,7 @@
 		// edit
 	// add data
 ?>
-	<form action="<?php echo new_datum_endpoint();?>" method="post">
+	<form action="<?php echo datum_create();?>" method="post">
 		<label for="datum[name]">Name 
 			<input type="text" name="datum[name]" id="datum[name]" required/>
 		</label>	

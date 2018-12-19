@@ -1,8 +1,11 @@
 <?php
-	function new_datum_endpoint(){
+	function datum_create(){
                 return "datum.new.php";
         }   
-        function edit_datum_endpoint(){
+        function datum_edit(){
                 return "datum.edit.php";
-        }  
+	}  
+	function datum_destroy(){
+		return "datum.delete.php";
+	}
 ?>

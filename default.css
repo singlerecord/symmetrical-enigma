@@ -10,6 +10,10 @@ body{
 	margin: 2vw auto 0 auto;
 	border-radius:8px;
 }
+div.section{
+	border:1px skyblue solid;
+	margin:5px;
+}
 form{
 	padding:10px;
 }

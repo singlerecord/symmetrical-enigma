@@ -1,3 +1,4 @@
+<div class="section">
 <?php
 	$requests = $db->datum_get_requests($datum_id);
 	if(count($requests) == 0){
@@ -8,3 +9,4 @@
 		}
 	}	
 ?>
+</div>

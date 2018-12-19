@@ -14,7 +14,12 @@
 			"user" => Array(
 				0 => "User created successfully.",
 				1 => "User logged in successfully.",
-				2 => "User logged out successfully."
+				2 => "User logged out successfully.",
+			),
+			"datum" => Array(
+				0 => "Datum created successfully.",
+				1 => "Datum updated successfully.",
+				2 => "Datum deleted successfully."
 			)
 		);
 		return "<div class='message'>".$messages[$context][$num]."</div>";

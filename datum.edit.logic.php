@@ -8,12 +8,16 @@
 			"name"=>$_POST["datum"]["name"],
 			"value"=>$_POST["datum"]["value"]
 		);
-		$db->datum_update($user_id,$datum_id,$datum["name"],$datum["value"]);	
+		$edit_success = $db->datum_update($user_id,$datum_id,$datum["name"],$datum["value"]);	
+		if($edit_success){
+			msg_num("datum",1);
+		}
 	}else{
+		$datum = $db->datum_get($user_id,$datum_id);
 	}
-	$datum = $db->datum_get($user_id,$datum_id);
 	// content
 	include "datum.edit.update.form.php";
 	include "datum.edit.access.list.php";
+	include "datum.edit.delete.form.php";
 	?>
 	

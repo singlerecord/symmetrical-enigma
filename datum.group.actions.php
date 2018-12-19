@@ -7,7 +7,7 @@
 	require_once toolbox();
 	require_once singlerecord();
 	require_once feedback();
-	// require_once restricted();
+	require_once restricted();
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,5 +16,8 @@
 </head>
 <body>
 	<?php include "signin.logic.php"; ?>
+	<?php include "datum.group.actions.logic.php"; ?>
+	<?php include "datum.group.actions.form.php"; ?>
+	<?php include "datum.dataset.list.php"; ?>
 </body>
 </html>

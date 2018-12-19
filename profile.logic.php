@@ -1,19 +1,23 @@
 <?php
 	// account details
-	$userid = $_SESSION["userid"];
+	$user_id = $_SESSION["userid"];
+	if(isset($_POST["new_datum"])){
+		$name = $_POST["datum"]["name"];
+		$value = $_POST["datum"]["value"];
+		$creation_success = $db->datum_insert($user_id,$name,$value);
+		if($creation_success){
+			echo msg_num("datum",0);
+		}
+	}elseif(isset($_POST["delete"])){
+		$datum_id = $_POST["datum"]["id"];
+	        $deletion_success = $db->datum_delete($datum_id);
+		if($deletion_success){
+			echo msg_num("datum",2);
+		}
+	}
 		// edit
 	// add data
-?>
-	<form action="<?php echo datum_create();?>" method="post">
-		<label for="datum[name]">Name 
-			<input type="text" name="datum[name]" id="datum[name]" required/>
-		</label>	
-		<label for="datum[value]">Value 
-			<input type="text" name="datum[value]" id="datum[value]" required/>
-		</label>	
-		<input type="submit" value="New Data" name="new_datum" id="new_datum"/>	
-	</form>
-<?php
+	include "profile.insert.datum.form.php";
 	// user data list
-	include "profile.datalist.php";
+	include "profile.datum.list.php";
 ?>

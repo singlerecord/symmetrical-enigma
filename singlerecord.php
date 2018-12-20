@@ -23,7 +23,7 @@
 			);
 		}
 		public function datum_update($user_id,$datum_id,$name,$value){
-			$query = 'UPDATE datum SET name = :name, value = :value WHERE user_id = :userid AND id = :id;';
+			$query = 'UPDATE datum SET name = :name, value = :value, timestamp = CURRENT_TIMESTAMP() WHERE user_id = :userid AND id = :id;';
 			return $this->run_query($query,
 				Array(
 					":name"=>$name,

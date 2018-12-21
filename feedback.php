@@ -20,6 +20,9 @@
 				0 => "Datum created successfully.",
 				1 => "Datum updated successfully.",
 				2 => "Datum deleted successfully."
+			),
+			"record" => Array(
+				0 => "Record created succesfully."
 			)
 		);
 		return "<div class='message'>".$messages[$context][$num]."</div>";

@@ -1,5 +1,8 @@
 <table>
 	<form action=<?php echo datum_group_actions();?> method="post">
+		<label for="name">New Record Name
+		<input type="input" name="name" id="name" />
+		</label>
 	<?php
 		$user_id = $_SESSION["userid"];
 		$dataset = $db->user_get_data($user_id);
@@ -19,6 +22,6 @@
 		<?php		
 		}
 	?>
-		<input type="submit" name="group" id="group" value="Create Dataset"/>
+		<input type="submit" name="group" id="group" value="Create New Record"/>
 	</form>
 </table>

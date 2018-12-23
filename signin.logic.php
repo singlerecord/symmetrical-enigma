@@ -3,13 +3,13 @@
 		$_SESSION["loggedin"] = TRUE;
 		$_SESSION["userid"] = $userid;
 		$_SESSION["username"] = $username;	
-		echo msg_num("user",1); 
+		echo msg_num("user","loggedin"); 
 	}
 	function logout(){
 		$_SESSION["loggedin"] = NULL;
 		$_SESSION["username"] = NULL;
 		$_SESSION["userid"] = NULL;
-		echo msg_num("user",2);
+		echo msg_num("user","loggedout");
 	}
 	$db = new singlerecord_sql();
 	if(isset($_POST["register"])){
@@ -18,7 +18,7 @@
 		$hashed_password = sha1($user["password"]);
 	        if(!$db->user_exists($username)){
 	                if($db->user_create($username,$hashed_password)){
-	                        echo msg_num("user",0);
+	                        echo msg_num("user","created");
 	                }else{
 	                        echo err_num("user",1);
 	                }   

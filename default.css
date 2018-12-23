@@ -20,7 +20,7 @@ div.section{
 form{
 	padding:10px;
 }
-table#data{
+table.data{
 	border:1px solid black;
 }
 td{

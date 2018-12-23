@@ -1,10 +1,57 @@
 <?php
 	class singlerecord_sql extends sql{
-		public function record_create($name, $datum_array,$user_id){
-			$query = 'INSERT INTO record (name) VALUES (:name);';
+		public function record_depopulate($record_id){
+			$query = 'DELETE FROM dataset WHERE record_id = :id;';
+			return $this->run_query($query,
+				Array(
+					':id'=>$record_id
+				)
+			);
+		}
+		public function record_repopulate($record_id,$datum_array){
+			$results = Array();
+			foreach($datum_array as $index => $datum){
+				$query = 'INSERT INTO dataset (datum_id,record_id) VALUES ';
+				$query .= '(:datum_id,:record_id);';
+				$result[] = $this->run_query($query,
+					Array(
+						':datum_id'=>$datum,
+						':record_id'=>$record_id
+					)
+				);
+			}
+			$yes = TRUE;
+			foreach($results as $result){
+				$yes = $yes && $result;
+			}
+			return $yes;
+		}
+		public function record_get($record_id){
+			$query = 'SELECT * FROM record WHERE id = :id;';
+			return $this->run_query($query,
+				Array(
+					':id'=>$record_id
+				),
+			"fetch");
+		}
+		public function record_get_dataset($record_id){
+			$query = 'SELECT * FROM dataset WHERE record_id = :record_id';
 			$result1 = $this->run_query($query,
 				Array(
-					':name' => $name
+					':record_id'=>$record_id
+				),"fetchAll");
+			$id_array = Array();
+			foreach($result1 as $row){
+				$id_array[$row["datum_id"]] = 1;
+			}	
+			return $id_array;
+		}
+		public function record_create($name, $datum_array,$user_id){
+			$query = 'INSERT INTO record (name,user_id) VALUES (:name,:user_id);';
+			$result1 = $this->run_query($query,
+				Array(
+					':name' => $name,
+					':user_id' => $user_id
 				)
 			);
 			$query = 'SELECT id FROM record WHERE name = :name;';
@@ -14,14 +61,12 @@
 				),
 				"fetch")["id"];
 			foreach($datum_array as $index => $datum){
-				
-				$query = 'INSERT INTO dataset (datum_id,record_id,user_id) VALUES ';
-				$query .= '(:datum_id,:record_id,:user_id);';
+				$query = 'INSERT INTO dataset (datum_id,record_id) VALUES ';
+				$query .= '(:datum_id,:record_id);';
 				$this->run_query($query,
 					Array(
 						':datum_id'=>$datum,
-						':record_id'=>$record_id,
-						':user_id'=>$user_id
+						':record_id'=>$record_id
 					)
 				);
 			}
@@ -32,9 +77,8 @@
                         return $this->run_query($query,Array(':userid' => $user_id),"fetchAll");
 		}
 		public function user_get_records($user_id){
-			$query = 'SELECT * from record, dataset ';
-			$query .= 'WHERE record.id = dataset.record_id ';
-			$query .= 'AND dataset.user_id = :user_id;';
+			$query = 'SELECT * from record ';
+			$query .= 'WHERE record.user_id = :user_id;';
 			return $this->run_query($query,
 				Array(
 					':user_id'=>$user_id

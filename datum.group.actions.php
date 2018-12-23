@@ -18,6 +18,5 @@
 	<?php include "signin.logic.php"; ?>
 	<?php include "datum.group.actions.logic.php"; ?>
 	<?php include "datum.group.actions.form.php"; ?>
-	<?php include "record.list.php"; ?>
 </body>
 </html>

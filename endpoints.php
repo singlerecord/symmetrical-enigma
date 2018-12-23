@@ -21,6 +21,9 @@
                 //return "datum.new.php";
 		return "profile.php";
         }   
+        function datum_manage(){
+                return "datum.manage.php";
+	}  
         function datum_edit(){
                 return "datum.edit.php";
 	}  

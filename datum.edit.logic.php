@@ -10,7 +10,7 @@
 		);
 		$edit_success = $db->datum_update($user_id,$datum_id,$datum["name"],$datum["value"]);	
 		if($edit_success){
-			msg_num("datum",1);
+			msg_num("datum","edited");
 		}
 	}else{
 		$datum = $db->datum_get($user_id,$datum_id);

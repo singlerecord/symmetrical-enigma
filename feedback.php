@@ -9,22 +9,25 @@
 		);
 		return "<div class='error'>".$errors[$context][$num]."</div>";
 	}
-	function msg_num($context,$num){
+	function msg_num($context,$action){
 		$messages = Array(
 			"user" => Array(
-				0 => "User created successfully.",
-				1 => "User logged in successfully.",
-				2 => "User logged out successfully.",
+				"created" => "User created successfully.",
+				"loggedin" => "User logged in successfully.",
+				"loggedout" => "User logged out successfully.",
 			),
 			"datum" => Array(
-				0 => "Datum created successfully.",
-				1 => "Datum updated successfully.",
-				2 => "Datum deleted successfully."
+				"created" => "Datum created successfully.",
+				"edited" => "Datum updated successfully.",
+				"deleted" => "Datum deleted successfully."
 			),
 			"record" => Array(
-				0 => "Record created succesfully."
+				"created" => "Record created succesfully.",
+				"depopulated" => "Record depopulated successfully.",
+				"repopulated" => "Record repopulated successfully.",
+				"updated" => "Record updated successfully"
 			)
 		);
-		return "<div class='message'>".$messages[$context][$num]."</div>";
+		return "<div class='message'>".$messages[$context][$action]."</div>";
 	}
 ?>

@@ -17,5 +17,6 @@
 <body>
 	<?php include "signin.logic.php"; ?>
 	<?php include "profile.logic.php"; ?>
+	<?php include "record.list.php"; ?>
 </body>
 </html>

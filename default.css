@@ -14,8 +14,10 @@ div{
 	padding:5px;
 }
 div.section{
-	border:1px skyblue solid;
-	margin:5px;
+	border:1px gray solid;
+	margin:10px;
+	border-radius:15px;
+	padding:20px;
 }
 form{
 	padding:10px;

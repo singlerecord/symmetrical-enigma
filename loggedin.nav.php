@@ -1,7 +1,8 @@
 <?php
 ?>
-<div id="user_nav">
-	<a href="profile.php">Profile</a>
+<a href="<?php echo home();?>">Home</a>
+<div class="section" id="user_nav">
+	<a href="<?php echo profile();?>">Profile</a>
 	
 	<table class="info">
 		<tr><td>username: <?php echo $_SESSION["username"];?></td></tr>

@@ -2,6 +2,12 @@
 	if(!isset($_SESSION)){
 		session_start();
 	}
+	function profile(){
+		return "profile.php";
+	}
+	function home(){
+		return "index.php";
+	}
 	function toolbox(){
 		return "php_toolbox/toolbox.php";
 	}
@@ -16,6 +22,9 @@
 	}
 	function datum_group_actions(){
 		return "datum.group.actions.php";
+	}
+	function datum_new_form(){
+		return "datum.new.form.php";
 	}
 	function datum_create(){
                 //return "datum.new.php";

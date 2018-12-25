@@ -1,8 +1,9 @@
+<div class="section">
 <h2>contact list</h2>
 <div>
 	<form action="" method="">
 		<label for="add_contact">
-			<input type="text" name="add_contact" id="add_contact" placeholder="username/SRUser-ID/SREmail"/>	
+			<input type="text" name="add_contact" id="add_contact" />	
 		</label>
 		<input type="submit" id="add" name="add" value="Add Contact"/>
 		<span class="help" >?<span>You can use SR username or ID.</span></span>
@@ -25,3 +26,4 @@
 	}
 ?>
 </table>
+</div>

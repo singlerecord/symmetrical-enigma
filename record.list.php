@@ -1,3 +1,4 @@
+<div class="section">
 <h2>record list</h2>
 <form action="<?php echo datum_group_actions();?>" method="post">
         <label for="new_record">Create Record
@@ -35,3 +36,4 @@
 	}
 ?>
 </table>
+</div>

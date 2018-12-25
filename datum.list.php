@@ -1,6 +1,7 @@
+<div class="section">
 <h2>data list</h2>
 <?php
-	include "profile.insert.datum.form.php";
+	include datum_new_form();
 ?>
 <table class="data">
 		<?php
@@ -39,3 +40,4 @@
         }}
 	?>
 </table>
+</div>

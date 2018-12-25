@@ -1,3 +1,4 @@
+<a href="<?php echo home();?>">Home</home>
 <form action="index.php" method="post">
         <label>
                 username:<input type="text" placeholder="username" name="user[username]" id="user[username]" /> 

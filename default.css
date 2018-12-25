@@ -29,6 +29,9 @@ td{
 tr{
 	border:1px blue solid;
 }
+.info td{
+	border:none;
+}
 .error,.message{
 	text-align:center;
 }
@@ -38,3 +41,28 @@ tr{
 .message{
 	border:blue solid 2px;	
 }
+.help{
+	color:skyblue;
+	font-weight:bold;
+	font-size:20px;
+	cursor:default;
+}
+.help span{
+	background:#FFFFFF;
+	position:fixed;
+	left:5vw;
+	top:5vh;
+	border: 5px solid #DFDFDF;
+	border-radius: 15px;
+	padding:10px 10px;
+	opacity:0;
+	transition: opacity 1s;
+}
+.help:hover span{
+	opacity:1;
+}
+.help span:hover{
+	opacity:0;
+}
+
+

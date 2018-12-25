@@ -72,6 +72,16 @@
 			}
 			
 		}
+		public function user_get_contacts($user_id){
+			$query = 'SELECT * FROM user,contact WHERE friender_id = :friender_id OR friended_id = :friended_id;';
+			return $this->run_query($query,
+				Array(
+					':friender_id' => $user_id,
+					':friended_id' => $user_id
+				),"fetchAll"
+			);
+			
+		}
 		public function user_get_data($user_id){
 		        $query = 'SELECT id,name,value FROM datum WHERE user_id = :userid;';
                         return $this->run_query($query,Array(':userid' => $user_id),"fetchAll");

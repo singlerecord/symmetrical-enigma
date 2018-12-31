@@ -26,9 +26,12 @@ you both realize you changed numbers 6 months back
 ## todo
 
 ### version 0.0.1 (mvp)
-- [ ] define datum
-- [ ] provide datum update mechanism
+- [x] define datum/*data item*: value pair {x,y} where x describes y: {"City","Hanover"}
+-- [x] provide datum update mechanism
+- [x] define record: set of arbitrary number of datum
+- [ ] define request
 - [ ] provide datum request mechanism
+- [ ] define contact
 - [ ] provide trusted contact management mechanism
 - [ ] provide automated message generation mechanism
 - [ ] provide trusted contact notification on datum update mechanism

@@ -16,14 +16,15 @@
 		$user = $_POST["user"];
 		$username = $user["username"];
 		$hashed_password = sha1($user["password"]);
-	        if(!$db->user_exists($username)){
+		$exists =$db->user_exists($username);
+	        if(!$exists){
 	                if($db->user_create($username,$hashed_password)){
 	                        echo msg_num("user","created");
 	                }else{
-	                        echo err_num("user",1);
+	                        echo err_num("user","unknown");
 	                }   
 	        }else{
-	                echo err_num("user",0);
+	                echo err_num("user","duplicate-username");
 	        }   
 	}   
 	if(isset($_POST["login"])){
@@ -37,10 +38,10 @@
 				}
 				login_user($user_array["id"],$user_array["username"]);
 	                }else{
-				echo err_num("user",2);
+				echo err_num("user","incorrect-credentials");
 			}    
 	        }else{
-	                echo err_num("user",2); 
+	                echo err_num("user","incorrect-credentials"); 
 	        }    
 	}
 	if(isset($_POST["logout"])){

@@ -2,9 +2,9 @@
 	function err_num($context,$num){
 		$errors = Array(
 			"user" => Array(
-				0 => "Registration failed. Username exists.",
-				1 => "Unspecified user creation failure.",
-				2 => "Login failed. Username or password incorrect."
+				"duplicate-username" => "Registration failed. Username exists.",
+				"unknown" => "Unspecified user creation failure.",
+				"incorrect-credentials" => "Login failed. Username or password incorrect."
 			)
 		);
 		return "<div class='error'>".$errors[$context][$num]."</div>";

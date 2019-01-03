@@ -23,6 +23,9 @@
 	function datum_group_actions(){
 		return "datum.group.actions.php";
 	}
+	function record_manage(){
+		return "record.manage.php";
+	}
 	function datum_new_form(){
 		return "datum.new.form.php";
 	}

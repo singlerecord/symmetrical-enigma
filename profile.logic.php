@@ -17,5 +17,5 @@
 	}
 		// edit
 	// user data list
-	include "datum.list.php";
+	include "data.list.php";
 ?>

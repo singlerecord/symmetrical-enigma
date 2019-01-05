@@ -6,7 +6,7 @@
 <form action="<?php echo datum_group_actions();?>" method="post">
                 <input type="submit" id="new_record" value="New Record"/>
 </form>
-<table class="data">
+<table>
 		<?php
 	$data = $db->user_get_data($user_id);
 	$records = $db->user_get_records($user_id);

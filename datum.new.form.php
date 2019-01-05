@@ -7,7 +7,7 @@
                         <label for="datum[value]">Value 
                                 <input type="text" name="datum[value]" id="datum[value]" required/>
                         </label>    
-                        <input type="submit" value="New Data" name="new_datum" id="new_datum"/> 
+                        <input type="submit" value="New Datum" name="new_datum" id="new_datum"/> 
                 </form>
         </div>
 

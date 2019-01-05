@@ -2,6 +2,9 @@
 	if(!isset($_SESSION)){
 		session_start();
 	}
+	function authenticate(){
+		return "signin.logic.php";
+	}
 	function profile(){
 		return "profile.php";
 	}
@@ -22,6 +25,12 @@
 	}
 	function datum_group_actions(){
 		return "datum.group.actions.php";
+	}
+	function key_create_form(){
+		return "key.new.form.php";
+	}
+	function key_create(){
+		return "key.new.php";
 	}
 	function record_manage(){
 		return "record.manage.php";

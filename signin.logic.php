@@ -15,7 +15,7 @@
 	if(isset($_POST["register"])){
 		$user = $_POST["user"];
 		$username = $user["username"];
-		$hashed_password = sha1($user["password"]);
+		$hashed_password = password_hash($user["password"],PASSWORD_BCRYPT);
 	        if(!$db->user_exists($username)){
 	                if($db->user_create($username,$hashed_password)){
 	                        echo msg_num("user","created");
@@ -29,9 +29,10 @@
 	if(isset($_POST["login"])){
 		$user = $_POST["user"];
 		$username = $user["username"];
-		$hashed_password = sha1($user["password"]);
+		$cleartext_password = $user["password"];
 	        if($db->user_exists($username)){
-	                if(($user_array = $db->user_password_matches($username,$hashed_password))){
+	                if($db->user_password_matches($username,$cleartext_password)){
+				$user_array = $db->user_get($username);
 				if(!isset($_SESSION)){
 					session_start();
 				}

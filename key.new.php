@@ -16,6 +16,6 @@
 </head>
 <body>
 	<?php include authenticate(); ?>
-	<?php include key_create_form(); ?>
+	<?php include key_create_result(); ?>
 </body>
 </html>

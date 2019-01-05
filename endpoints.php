@@ -26,6 +26,9 @@
 	function datum_group_actions(){
 		return "datum.group.actions.php";
 	}
+	function key_create_result(){
+		return "key.new.result.php";
+	}
 	function key_create_form(){
 		return "key.new.form.php";
 	}
@@ -35,8 +38,11 @@
 	function record_manage(){
 		return "record.manage.php";
 	}
-	function datum_new_form(){
-		return "datum.new.form.php";
+	function record_create_form(){
+		return "record.new.form.php";
+	}
+	function datum_create_form(){
+		return "datum.new.form.php";	
 	}
 	function datum_create(){
                 //return "datum.new.php";

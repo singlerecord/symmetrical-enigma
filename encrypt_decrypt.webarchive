@@ -1,0 +1,306 @@
+bplist00�_WebMainResource�	
+^WebResourceURL_WebResourceFrameName_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingName_1http://127.0.0.1/singlerecord/encrypt_decrypt.phpPO��<html><script></script><script></script><script></script><script></script><script></script><script></script><script></script><script></script><head></head><body><h2>using AES-128-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=s4wv8o0PKwP664sAuMOOeA==<br>decrypted_message=<br><h2>using AES-128-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using AES-128-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=WLJwesFDtubrx/wG<br>decrypted_message=��nLj��/�<br><h2>using AES-128-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=XwlRe0F5f1vU5CVX<br>decrypted_message=����ʁ�O�t#<br><h2>using AES-128-CTR</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using AES-128-ECB</h2>ciphertext=s4wv8o0PKwP664sAuMOOeA==<br>decrypted_message=<br><h2>using AES-128-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using AES-128-XTS</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br>decrypted_message=<br><h2>using AES-192-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iFEmnbnCuAinwYAjAjPcIg==<br>decrypted_message=<br><h2>using AES-192-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using AES-192-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UywmjEya1gtD1heK<br>decrypted_message=s$��0r�W�׊�<br><h2>using AES-192-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Eri4VKbb6TJTi/R3<br>decrypted_message='�aS��;d��<br><h2>using AES-192-CTR</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using AES-192-ECB</h2>ciphertext=iFEmnbnCuAinwYAjAjPcIg==<br>decrypted_message=<br><h2>using AES-192-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using AES-256-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=hadkTeF8S+nUpu5bitJbNw==<br>decrypted_message=<br><h2>using AES-256-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using AES-256-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UyvMrac7nxQdPCjm<br>decrypted_message=�AHF��+���<br><h2>using AES-256-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Bo/i5bRfl/A0Z6Cg<br>decrypted_message=�M̧m���Ƌ�<br><h2>using AES-256-CTR</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using AES-256-ECB</h2>ciphertext=hadkTeF8S+nUpu5bitJbNw==<br>decrypted_message=<br><h2>using AES-256-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using AES-256-XTS</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br>decrypted_message=<br><h2>using BF-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=p45pBPoeCXX6T89/KryGVA==<br>decrypted_message=<br><h2>using BF-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=E6Fbu5fDsG6cj37g<br>decrypted_message=�T���C�9%<br><h2>using BF-ECB</h2>ciphertext=p45pBPoeCXWEf303vya6KQ==<br>decrypted_message=<br><h2>using BF-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=E6Fbu5fDsG6dQUXc<br>decrypted_message=�T���C��<br><h2>using CAMELLIA-128-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=/XFl2N2VKdGE05W4UO7hGQ==<br>decrypted_message=<br><h2>using CAMELLIA-128-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m/OjGwNAGQ78rsJM<br>decrypted_message=�J�/L�T��<br><h2>using CAMELLIA-128-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=wj1zkhoX0yVqJeyz<br>decrypted_message=�,�@��%[��m%<br><h2>using CAMELLIA-128-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m8dwujICl+eo/Trc<br>decrypted_message=�)��Ql���v<br><h2>using CAMELLIA-128-ECB</h2>ciphertext=/XFl2N2VKdGE05W4UO7hGQ==<br>decrypted_message=<br><h2>using CAMELLIA-128-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m/OjGwNAGQ78rsJM<br>decrypted_message=�J�/L�T��<br><h2>using CAMELLIA-192-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=D9HIXhsqSqJ5XoE753KXpw==<br>decrypted_message=<br><h2>using CAMELLIA-192-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PSJ3BT9FxQkgZjBO<br>decrypted_message=�C������Ɏ?<br><h2>using CAMELLIA-192-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Ur41Ol2sgmE54gVU<br>decrypted_message=�J�Ж�/z2<br><h2>using CAMELLIA-192-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PWfj1EGbQw6r30un<br>decrypted_message=���߆=�@YO&lt;<br><h2>using CAMELLIA-192-ECB</h2>ciphertext=D9HIXhsqSqJ5XoE753KXpw==<br>decrypted_message=<br><h2>using CAMELLIA-192-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PSJ3BT9FxQkgZjBO<br>decrypted_message=�C������Ɏ?<br><h2>using CAMELLIA-256-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=RExmKeV+LUpSeUx7XiVIYQ==<br>decrypted_message=<br><h2>using CAMELLIA-256-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=ydrbFmon5QUCFX91<br>decrypted_message=�:,؋���%<br><h2>using CAMELLIA-256-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=r9bUZptQuzt9HAYV<br>decrypted_message=�5�^�e�����<br><h2>using CAMELLIA-256-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=yVBqNyvUpn2shRdw<br>decrypted_message=��Q�~�F��;<br><h2>using CAMELLIA-256-ECB</h2>ciphertext=RExmKeV+LUpSeUx7XiVIYQ==<br>decrypted_message=<br><h2>using CAMELLIA-256-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=ydrbFmon5QUCFX91<br>decrypted_message=�:,؋���%<br><h2>using CAST5-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=NFyt0SXl1daWnf8nJ1H/rg==<br>decrypted_message=<br><h2>using CAST5-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UW3/lAHvXbUaUD0+<br>decrypted_message=̮���f!�@`+<br><h2>using CAST5-ECB</h2>ciphertext=NFyt0SXl1dYFJU0yK5ffVA==<br>decrypted_message=<br><h2>using CAST5-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UW3/lAHvXbVxUI3N<br>decrypted_message=̮���f!�E�<br><h2>using ChaCha</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=16G6w9VLL7kjulVi<br>decrypted_message=��`CQ�т��<br><h2>using DES-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=QY+qrMISHXdQrfstoVzF1Q==<br>decrypted_message=<br><h2>using DES-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Wa0p9hF0/jJlWeWP<br>decrypted_message=v�O7ai)+�f�<br><h2>using DES-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X4ERhm5ANjw+GWHZ<br>decrypted_message=G$m�0�[�ޢ�<br><h2>using DES-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=WSLxvh+kHsfJ8+gW<br>decrypted_message=v��&gt;i�Rƪ���<br><h2>using DES-ECB</h2>ciphertext=QY+qrMISHXevCRVUDfcl4g==<br>decrypted_message=<br><h2>using DES-EDE</h2>ciphertext=iLLY43ME8zoiYRA8cqgIaQ==<br>decrypted_message=<br><h2>using DES-EDE-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iLLY43ME8zq/Ix+e1IfStQ==<br>decrypted_message=<br><h2>using DES-EDE-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iz60fL9r8d7CWAAt<br>decrypted_message=3�~�&gt;�[�BX<br><h2>using DES-EDE-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iz60fL9r8d66MDXG<br>decrypted_message=3�~�&gt;��6�|<br><h2>using DES-EDE3</h2>ciphertext=/BHF2M/cLgO/3N269/y99Q==<br>decrypted_message=<br><h2>using DES-EDE3-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=/BHF2M/cLgMDRCGq1F1PFQ==<br>decrypted_message=<br><h2>using DES-EDE3-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mP6zZKMrKvvy8IVk<br>decrypted_message=� ��\�H+���<br><h2>using DES-EDE3-CFB1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=lNSyfhbLPvhb7kJY<br>decrypted_message=�Ĳ~�&gt;�[�BX<br><h2>using DES-EDE3-CFB8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mHQ+3tkLCbX5SWk7<br>decrypted_message=��J��{i�<br><h2>using DES-EDE3-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mP6zZKMrKvvvNym+<br>decrypted_message=� ��\�H��d<br><h2>using DES-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Wa0p9hF0/jImNvgu<br>decrypted_message=v�O7ai)+��[p<br><h2>using DESX-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EwHB1sCTA20/Z+0f8XBJ8w==<br>decrypted_message=<br><h2>using GOST 28147-89</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=YN8Girat5NPOuEgG<br>decrypted_message=|�zM�oR�޿�B<br><h2>using RC2-40-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=5P5U8M6Y3T/c8TSO12J3zQ==<br>decrypted_message=<br><h2>using RC2-64-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=YyZSJj14TKSulDQhRr1CQg==<br>decrypted_message=<br><h2>using RC2-CBC</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=DfWM0fQSuxFlRjPFUlzm5w==<br>decrypted_message=<br><h2>using RC2-CFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=OFLv0DMhsQJlLYH8<br>decrypted_message=}�2���b&amp;��8<br><h2>using RC2-ECB</h2>ciphertext=DfWM0fQSuxFS0e3Bk5e7UA==<br>decrypted_message=<br><h2>using RC2-OFB</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=OFLv0DMhsQKWUfAu<br>decrypted_message=}�2���b&amp;%1)�<br><h2>using RC4</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br><h2>using RC4-40</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br><h2>using RC4-HMAC-MD5</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br><h2>using aes-128-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=s4wv8o0PKwP664sAuMOOeA==<br>decrypted_message=<br><h2>using aes-128-ccm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-128-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using aes-128-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=WLJwesFDtubrx/wG<br>decrypted_message=��nLj��/�<br><h2>using aes-128-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=XwlRe0F5f1vU5CVX<br>decrypted_message=����ʁ�O�t#<br><h2>using aes-128-ctr</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using aes-128-ecb</h2>ciphertext=s4wv8o0PKwP664sAuMOOeA==<br>decrypted_message=<br><h2>using aes-128-gcm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-128-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X/701i2GSp/ZJYhS<br>decrypted_message=��V�c���w�<br><h2>using aes-128-xts</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br>decrypted_message=<br><h2>using aes-192-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iFEmnbnCuAinwYAjAjPcIg==<br>decrypted_message=<br><h2>using aes-192-ccm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-192-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using aes-192-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UywmjEya1gtD1heK<br>decrypted_message=s$��0r�W�׊�<br><h2>using aes-192-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Eri4VKbb6TJTi/R3<br>decrypted_message='�aS��;d��<br><h2>using aes-192-ctr</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using aes-192-ecb</h2>ciphertext=iFEmnbnCuAinwYAjAjPcIg==<br>decrypted_message=<br><h2>using aes-192-gcm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-192-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EmC9BmWahEFwxDvf<br>decrypted_message='���O��XK<br><h2>using aes-256-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=hadkTeF8S+nUpu5bitJbNw==<br>decrypted_message=<br><h2>using aes-256-ccm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-256-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using aes-256-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UyvMrac7nxQdPCjm<br>decrypted_message=�AHF��+���<br><h2>using aes-256-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Bo/i5bRfl/A0Z6Cg<br>decrypted_message=�M̧m���Ƌ�<br><h2>using aes-256-ctr</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using aes-256-ecb</h2>ciphertext=hadkTeF8S+nUpu5bitJbNw==<br>decrypted_message=<br><h2>using aes-256-gcm</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using aes-256-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=BpfMH80lCZcnFx3/<br>decrypted_message=�&lt;GK
+���Vz<br><h2>using aes-256-xts</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br>decrypted_message=<br><h2>using bf-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=p45pBPoeCXX6T89/KryGVA==<br>decrypted_message=<br><h2>using bf-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=E6Fbu5fDsG6cj37g<br>decrypted_message=�T���C�9%<br><h2>using bf-ecb</h2>ciphertext=p45pBPoeCXWEf303vya6KQ==<br>decrypted_message=<br><h2>using bf-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=E6Fbu5fDsG6dQUXc<br>decrypted_message=�T���C��<br><h2>using camellia-128-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=/XFl2N2VKdGE05W4UO7hGQ==<br>decrypted_message=<br><h2>using camellia-128-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m/OjGwNAGQ78rsJM<br>decrypted_message=�J�/L�T��<br><h2>using camellia-128-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=wj1zkhoX0yVqJeyz<br>decrypted_message=�,�@��%[��m%<br><h2>using camellia-128-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m8dwujICl+eo/Trc<br>decrypted_message=�)��Ql���v<br><h2>using camellia-128-ecb</h2>ciphertext=/XFl2N2VKdGE05W4UO7hGQ==<br>decrypted_message=<br><h2>using camellia-128-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=m/OjGwNAGQ78rsJM<br>decrypted_message=�J�/L�T��<br><h2>using camellia-192-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=D9HIXhsqSqJ5XoE753KXpw==<br>decrypted_message=<br><h2>using camellia-192-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PSJ3BT9FxQkgZjBO<br>decrypted_message=�C������Ɏ?<br><h2>using camellia-192-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Ur41Ol2sgmE54gVU<br>decrypted_message=�J�Ж�/z2<br><h2>using camellia-192-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PWfj1EGbQw6r30un<br>decrypted_message=���߆=�@YO&lt;<br><h2>using camellia-192-ecb</h2>ciphertext=D9HIXhsqSqJ5XoE753KXpw==<br>decrypted_message=<br><h2>using camellia-192-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=PSJ3BT9FxQkgZjBO<br>decrypted_message=�C������Ɏ?<br><h2>using camellia-256-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=RExmKeV+LUpSeUx7XiVIYQ==<br>decrypted_message=<br><h2>using camellia-256-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=ydrbFmon5QUCFX91<br>decrypted_message=�:,؋���%<br><h2>using camellia-256-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=r9bUZptQuzt9HAYV<br>decrypted_message=�5�^�e�����<br><h2>using camellia-256-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=yVBqNyvUpn2shRdw<br>decrypted_message=��Q�~�F��;<br><h2>using camellia-256-ecb</h2>ciphertext=RExmKeV+LUpSeUx7XiVIYQ==<br>decrypted_message=<br><h2>using camellia-256-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=ydrbFmon5QUCFX91<br>decrypted_message=�:,؋���%<br><h2>using cast5-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=NFyt0SXl1daWnf8nJ1H/rg==<br>decrypted_message=<br><h2>using cast5-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UW3/lAHvXbUaUD0+<br>decrypted_message=̮���f!�@`+<br><h2>using cast5-ecb</h2>ciphertext=NFyt0SXl1dYFJU0yK5ffVA==<br>decrypted_message=<br><h2>using cast5-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=UW3/lAHvXbVxUI3N<br>decrypted_message=̮���f!�E�<br><h2>using chacha</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=16G6w9VLL7kjulVi<br>decrypted_message=��`CQ�т��<br><h2>using des-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=QY+qrMISHXdQrfstoVzF1Q==<br>decrypted_message=<br><h2>using des-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Wa0p9hF0/jJlWeWP<br>decrypted_message=v�O7ai)+�f�<br><h2>using des-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=X4ERhm5ANjw+GWHZ<br>decrypted_message=G$m�0�[�ޢ�<br><h2>using des-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=WSLxvh+kHsfJ8+gW<br>decrypted_message=v��&gt;i�Rƪ���<br><h2>using des-ecb</h2>ciphertext=QY+qrMISHXevCRVUDfcl4g==<br>decrypted_message=<br><h2>using des-ede</h2>ciphertext=iLLY43ME8zoiYRA8cqgIaQ==<br>decrypted_message=<br><h2>using des-ede-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iLLY43ME8zq/Ix+e1IfStQ==<br>decrypted_message=<br><h2>using des-ede-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iz60fL9r8d7CWAAt<br>decrypted_message=3�~�&gt;�[�BX<br><h2>using des-ede-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=iz60fL9r8d66MDXG<br>decrypted_message=3�~�&gt;��6�|<br><h2>using des-ede3</h2>ciphertext=/BHF2M/cLgO/3N269/y99Q==<br>decrypted_message=<br><h2>using des-ede3-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=/BHF2M/cLgMDRCGq1F1PFQ==<br>decrypted_message=<br><h2>using des-ede3-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mP6zZKMrKvvy8IVk<br>decrypted_message=� ��\�H+���<br><h2>using des-ede3-cfb1</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=lNSyfhbLPvhb7kJY<br>decrypted_message=�Ĳ~�&gt;�[�BX<br><h2>using des-ede3-cfb8</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mHQ+3tkLCbX5SWk7<br>decrypted_message=��J��{i�<br><h2>using des-ede3-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=mP6zZKMrKvvvNym+<br>decrypted_message=� ��\�H��d<br><h2>using des-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=Wa0p9hF0/jImNvgu<br>decrypted_message=v�O7ai)+��[p<br><h2>using desx-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=EwHB1sCTA20/Z+0f8XBJ8w==<br>decrypted_message=<br><h2>using gost89</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=YN8Girat5NPOuEgG<br>decrypted_message=|�zM�oR�޿�B<br><h2>using gost89-cnt</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=ukzZZBu0xvtLf4ls<br>decrypted_message=Pq|���޽I\�<br><h2>using gost89-ecb</h2>ciphertext=W+Xh/yTTdpNRVhs7zA4SSw==<br>decrypted_message=<br><h2>using id-aes128-CCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using id-aes128-GCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using id-aes192-CCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using id-aes192-GCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using id-aes256-CCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using id-aes256-GCM</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=<br><br>
+<b>Warning</b>:  openssl_decrypt(): Setting of IV length for AEAD mode failed in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>9</b><br>
+decrypted_message=<br><h2>using rc2-40-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=5P5U8M6Y3T/c8TSO12J3zQ==<br>decrypted_message=<br><h2>using rc2-64-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=YyZSJj14TKSulDQhRr1CQg==<br>decrypted_message=<br><h2>using rc2-cbc</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=DfWM0fQSuxFlRjPFUlzm5w==<br>decrypted_message=<br><h2>using rc2-cfb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=OFLv0DMhsQJlLYH8<br>decrypted_message=}�2���b&amp;��8<br><h2>using rc2-ecb</h2>ciphertext=DfWM0fQSuxFS0e3Bk5e7UA==<br>decrypted_message=<br><h2>using rc2-ofb</h2><br>
+<b>Warning</b>:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in <b>/Users/josetaveras/Sites/singlerecord/encrypt_decrypt.php</b> on line <b>7</b><br>
+ciphertext=OFLv0DMhsQKWUfAu<br>decrypted_message=}�2���b&amp;%1)�<br><h2>using rc4</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br><h2>using rc4-40</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br><h2>using rc4-hmac-md5</h2>ciphertext=QYr8ac/bNzZxLA0T<br>decrypted_message=^U���X��Hh<br></body></html>Ytext/htmlUUTF-8    ( 7 N ` v � � ɸT�^                           �d

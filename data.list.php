@@ -1,11 +1,9 @@
 <div class="section">
 <h2>data list</h2>
 <?php
-	include datum_new_form();
+	include datum_create_form();
+	include record_create_form();
 ?>
-<form action="<?php echo datum_group_actions();?>" method="post">
-                <input type="submit" id="new_record" value="New Record"/>
-</form>
 <table>
 		<?php
 	$data = $db->user_get_data($user_id);

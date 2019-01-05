@@ -1,5 +1,4 @@
-        <div>
-                <span>Create new datum:</span>
+                <label>Create new datum:</label>
                 <form style="display:inline;" action="<?php echo datum_create();?>" method="post">
                         <label for="datum[name]">Name 
                                 <input type="text" name="datum[name]" id="datum[name]" required/>
@@ -9,5 +8,4 @@
                         </label>    
                         <input type="submit" value="New Datum" name="new_datum" id="new_datum"/> 
                 </form>
-        </div>
 

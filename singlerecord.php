@@ -1,5 +1,14 @@
 <?php
 	class singlerecord_sql extends sql{
+		public function record_rename($record_id,$name){
+			$query = 'UPDATE record SET name = :name WHERE id = :id;';
+			return $this->run_query($query,
+				Array(
+					':id'=>$record_id,
+					':name'=>$name
+				)
+			);
+		}
 		public function record_depopulate($record_id){
 			$query = 'DELETE FROM dataset WHERE record_id = :id;';
 			return $this->run_query($query,

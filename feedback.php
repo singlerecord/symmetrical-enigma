@@ -25,7 +25,8 @@
 				"created" => "Record created succesfully.",
 				"depopulated" => "Record depopulated successfully.",
 				"repopulated" => "Record repopulated successfully.",
-				"updated" => "Record updated successfully"
+				"updated" => "Record updated successfully",
+				"renamed" => "Record name updated successfully"
 			)
 		);
 		return "<div class='message'>".$messages[$context][$action]."</div>";

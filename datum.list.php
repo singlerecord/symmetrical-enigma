@@ -11,7 +11,7 @@
 	<?php
 	}else{
 	?>
-		<tr><th>Name</th><th>Value</th><th>Actions</th></tr>
+		<tr><th>Name</th><th>Actions</th></tr>
 	<?php
         foreach($data as $datum){
                 $id = $datum["id"];
@@ -21,9 +21,6 @@
                         <tr>
                                 <td>
                                         <?php echo $name; ?>    
-                                </td>
-                                <td>
-                                        <?php echo $value; ?>   
                                 </td>
                                 <td>
 <form style="display:inline;" action="<?php echo datum_edit(); ?>" method="post">

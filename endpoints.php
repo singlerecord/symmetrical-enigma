@@ -2,6 +2,9 @@
 	if(!isset($_SESSION)){
 		session_start();
 	}
+	function authenticate(){
+		return "signin.logic.php";
+	}
 	function profile(){
 		return "profile.php";
 	}
@@ -23,8 +26,23 @@
 	function datum_group_actions(){
 		return "datum.group.actions.php";
 	}
-	function datum_new_form(){
-		return "datum.new.form.php";
+	function key_create_result(){
+		return "key.new.result.php";
+	}
+	function key_create_form(){
+		return "key.new.form.php";
+	}
+	function key_create(){
+		return "key.new.php";
+	}
+	function record_manage(){
+		return "record.manage.php";
+	}
+	function record_create_form(){
+		return "record.new.form.php";
+	}
+	function datum_create_form(){
+		return "datum.new.form.php";	
 	}
 	function datum_create(){
                 //return "datum.new.php";

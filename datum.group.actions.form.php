@@ -40,7 +40,7 @@
 		if(isset($_POST["record"])){
 	?>
 		<label for="name">Record Name
-			<input type="input" name="name" id="name" value="<?php echo $record["name"];?>" />
+			<input type="input" name="record[name]" id="record[name]" value="<?php echo $record["name"];?>" />
 		</label>
 		<input type="submit" name="update" id="update" value="Update Record"/>
 		<input type="hidden" name="record[id]" id="record[id]" value="<?php echo $record_id; ?>"/>

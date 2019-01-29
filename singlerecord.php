@@ -1,5 +1,14 @@
 <?php
 	class singlerecord_sql extends sql{
+		public function record_rename($record_id,$name){
+			$query = 'UPDATE record SET name = :name WHERE id = :id;';
+			return $this->run_query($query,
+				Array(
+					':id'=>$record_id,
+					':name'=>$name
+				)
+			);
+		}
 		public function record_depopulate($record_id){
 			$query = 'DELETE FROM dataset WHERE record_id = :id;';
 			return $this->run_query($query,
@@ -81,6 +90,10 @@
 				),"fetchAll"
 			);
 			
+		}
+		public function user_get_keys($user_id){
+		        $query = 'SELECT * FROM coin WHERE user_id = :userid;';
+                        return $this->run_query($query,Array(':userid' => $user_id),"fetchAll");
 		}
 		public function user_get_data($user_id){
 		        $query = 'SELECT id,name,value FROM datum WHERE user_id = :userid;';

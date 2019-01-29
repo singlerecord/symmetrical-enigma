@@ -15,7 +15,4 @@
 			echo msg_num("datum","deleted");
 		}
 	}
-		// edit
-	// user data list
-	include "datum.list.php";
 ?>

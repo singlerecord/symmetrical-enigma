@@ -12,7 +12,7 @@
 		return "index.php";
 	}
 	function toolbox(){
-		return "php_toolbox/toolbox.php";
+		return "toolbox/php/toolbox.php";
 	}
 	function singlerecord(){
 		return "singlerecord.php";

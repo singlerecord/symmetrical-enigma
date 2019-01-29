@@ -31,7 +31,7 @@
 		$username = $user["username"];
 		$cleartext_password = $user["password"];
 	        if($db->user_exists($username)){
-	                if($db->user_password_matches($username,$cleartext_password)){
+			if($db->user_password_matches($username,$cleartext_password)){
 				$user_array = $db->user_get($username);
 				if(!isset($_SESSION)){
 					session_start();

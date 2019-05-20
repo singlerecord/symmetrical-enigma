@@ -7,7 +7,8 @@
 				"incorrect-credentials" => "Login failed. Username or password incorrect."
 			),
 			"notification"=>Array(
-				"failure"=>"Some notifications failed to be generated"
+				"failure"=>"Some notifications failed to be generated",
+				"method"=>"Error in contact methods."
 			)
 		);
 		return "<div class='error'>".$errors[$context][$num]."</div>";

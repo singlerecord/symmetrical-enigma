@@ -16,7 +16,7 @@
 					<td>
 						<label for="add_contact">E-Mail/Phone Number
 							<span class="help">?
-								<span>Only phone numbers in the United States.</span>
+								<span>Only phone numbers in the United States (Numbers MUST begin with +1).</span>
 							</span>
 						</label>
 					</td>

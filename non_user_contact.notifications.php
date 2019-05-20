@@ -17,7 +17,7 @@
 <body>
 <?php 
 	include "signin.logic.php"; 
-	include "non_user_contact.notifications.summary.php";
+	// include "non_user_contact.notifications.summary.php";
 	include "non_user_contact.notifications.logic.php";
 	include "non_user_contact.notifications.form.php"
 ?>

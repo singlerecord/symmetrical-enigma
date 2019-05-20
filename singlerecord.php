@@ -4,13 +4,14 @@
 	include "record.php";
 	include "dataset.php";
 	include "notification_set.php";
+	include "notification_handlers.php";
 	function hidden_input($name,$value){
 		return "<input type=\"hidden\" id=\"$name\" name=\"$name\" value=\"$value\"/>";	
 	}
 	function is_phone_number($s){
-		return	preg_match('/[^\d]/',$s) == 0
+		return	preg_match('/\+[^\d]/',$s) == 0
 			&& 
-			strlen($s) == 10;
+			strlen($s) == 12;
 	}
 	function is_email($s){
 		return strpos($s,'@') > 0;
@@ -106,18 +107,29 @@
 		}
 		public function user_add_contact($owner_id,$method,$contact_name){
 			// 
-			if(is_email($method) || is_phone_number($method))
-			{
-				return $this->non_user_contact_add($owner_id,$username,$contact_name);
+			if(is_email($method)){
+				return $this->non_user_contact_add_email($owner_id,$method,$contact_name);
+		 	}elseif(is_phone_number($method)){		
+				return $this->non_user_contact_add_phone($owner_id,$method,$contact_name);
 			}else{
 				// check SingleRecord username exists
 			}
 		}
-		public function non_user_contact_add($owner_id,$method,$name){
+		public function non_user_contact_add_email($owner_id,$email,$name){
 			$query = "INSERT INTO non_user_contact (method,owner,name) VALUES (:method,:owner,:name);";
 			return $this->run_query($query,
 				Array(
-					":method"=>$method,
+					":method"=>$email,
+					":owner"=>$owner_id,
+					":name"=>$name
+				)
+			);
+		}
+		public function non_user_contact_add_phone($owner_id,$phone,$name){
+			$query = "INSERT INTO non_user_contact (method,owner,name) VALUES (:method,:owner,:name);";
+			return $this->run_query($query,
+				Array(
+					":method"=>$phone,
 					":owner"=>$owner_id,
 					":name"=>$name
 				)
@@ -136,19 +148,25 @@
 			$yes = TRUE;
 			foreach($notifications as $notification){
 				$method = $notification["method"];
+				$to = $method;
+				$username = $user["username"];
+				$dataname = $data->getName($this);
+				$datavalue = $data->getValue($this);
+				$subject = "$username: I have updated some data";
+				$message = "My new $dataname is $datavalue.\r\n";
+				$message .= "Brought to you by <a href=\"https://www.singlerecord.org\">singlerecord.org</a>";
 				if(is_email($method)){
 					//send email
-					$to = $method;
-					$username = $user["username"];
-					$dataname = $data->getName($this);
-					$subject = "$username: I have updated some data";
-					$message = "My new $dataname is $datavalue.\r\n";
-					$message .= "Brought to you by <a href=\"https://www.singlerecord.org\">singlerecord.org</a>";
 					$headers = 'From: no-reply@singlerecord.org';
 					$yes = $yes && mail($to,$subject,$message,$headers);
 				}
-				if(is_phone_number($method)){
+				elseif(is_phone_number($method)){
 					//send sms
+					$sms_handler = new sms_handler();
+					$yes = $yes && $sms_handler->send_notification($to,$message,Array());
+				}else{
+					echo err_num("notification","method");
+					return FALSE;	
 				}
 				
 			}
@@ -243,7 +261,7 @@
 			);
 			$id_array = Array();
 			$id_array["owner_id"] = $owner_id;
-			$id_array["non_user_contact_id"] = $non_user_contact_id;
+			$id_array["contact_id"] = $contact_id;
 			foreach($result1 as $row){
 				$id_array["notifications"][$row["type"]][$row["datum_record_id"]] = 1;
 			}	

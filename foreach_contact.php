@@ -24,13 +24,13 @@
 		</table>
 		<h3>non-user contacts</h3>
 		<table>
-		<tr><th>Name</th><th>E-mail</th><th>Actions</th></tr>
+		<tr><th>Name</th><th>Method</th><th>Actions</th></tr>
 	<?php
 		foreach($non_user_contacts as $contact){		
 	?>
 		<tr>
 			<td><?php echo $contact["name"];?></td>
-			<td><?php echo $contact["email"];?></td>
+			<td><?php echo $contact["method"];?></td>
 			<td>
 				<table>
 					<tr>

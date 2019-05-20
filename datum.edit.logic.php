@@ -11,12 +11,17 @@
 		$edit_success = $db->datum_update($user_id,$datum_id,$datum["name"],$datum["value"]);	
 		if($edit_success){
 			echo msg_num("datum","edited");
+			$datum_record_id = $datum_id;
+			$notification_success = $db->notify($user_id,$datum_record_id,"datum");
+			if($notification_success){
+				echo msg_num("notification","success");			
+			}else{
+				echo err_num("notification","failure");
+			}
 		}
 	}else{
-		$datum = $db->datum_get($user_id,$datum_id);
+		$datum = $db->datum_get($datum_id);
 	}
 	// content
-	include "datum.edit.update.form.php";
-	include "datum.edit.delete.form.php";
 	?>
 	

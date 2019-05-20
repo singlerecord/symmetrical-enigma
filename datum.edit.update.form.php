@@ -1,4 +1,4 @@
-	<div class="section">
+	<div class="section"><h2>Name & Value</h2>
 		<form action="" method="post">
                         <label for="datum[name]">Name
                                 <input type="text" name="datum[name]" id="datum[name]" value="<?php echo $datum["name"];?>"/></label>

@@ -14,5 +14,8 @@
 			}
 			return implode($data_item_arr,", ");
 		}
+		public function getName($db){
+			return $this->name;
+		}
 	}
 ?>

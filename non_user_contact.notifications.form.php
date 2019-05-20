@@ -9,14 +9,11 @@
 			$owner_id = $_POST["owner_id"];
 			echo hidden_input("owner_id",$owner_id);
 			$non_user_contact_id = $_POST["non_user_contact_id"];
-			$notification_set = $db->user_get_non_user_contact_notification_set($owner_id,$non_user_contact_id);
+			echo hidden_input("non_user_contact_id",$non_user_contact_id);
+			$notification_set = $db->user_non_user_contact_notification_set_get($owner_id,$non_user_contact_id);
 		}
 	?>
-		<input 	type="hidden" 
-			id="non_user_contact_id" 
-			name="non_user_contact_id" 
-			value="<?php echo $non_user_contact_id;?>"
-		/><?php
+		<?php
 		//print_r($data_records);
 		foreach($data_records as $index => $datum){
 			//print_r($datum);
@@ -37,8 +34,8 @@
 						}
 					?>
 					type="checkbox" 
-					name="datum_record_ids[]" 
-					id="datum_record_ids[]" 
+					name="datum_record_types_ids[]" 
+					id="datum_record_types_ids[]" 
 					value="<?php echo $datum["type"]."-".$datum["id"];?>"/>
 					
 					

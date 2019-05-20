@@ -5,6 +5,9 @@
 				"duplicate-username" => "Registration failed. Username exists.",
 				"unknown" => "Unspecified user creation failure.",
 				"incorrect-credentials" => "Login failed. Username or password incorrect."
+			),
+			"notification"=>Array(
+				"failure"=>"Some notifications failed to be generated"
 			)
 		);
 		return "<div class='error'>".$errors[$context][$num]."</div>";
@@ -25,8 +28,18 @@
 				"created" => "Record created succesfully.",
 				"depopulated" => "Record depopulated successfully.",
 				"repopulated" => "Record repopulated successfully.",
-				"updated" => "Record updated successfully",
-				"renamed" => "Record name updated successfully"
+				"updated" => "Record updated successfully.",
+				"renamed" => "Record name updated successfully."
+			),
+			"notification_set" => Array(
+				"created" => "Notification Set created successfully.",
+				"depopulated" => "Notification Set depopulated successfully.",
+				"repopulated" => "Notification Set repopulated successfully.",
+				"updated" => "Notification Set updated successfully."
+				
+			),
+			"notification" => Array(
+				"success" => "Notification process triggered."
 			)
 		);
 		return "<div class='message'>".$messages[$context][$action]."</div>";

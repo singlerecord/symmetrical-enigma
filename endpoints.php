@@ -36,7 +36,7 @@
 		return "key.new.php";
 	}
 	function record_manage(){
-		return "record.manage.php";
+		return "record.access.php";
 	}
 	function record_create_form(){
 		return "record.new.form.php";
@@ -58,4 +58,20 @@
 		//return "datum.delete.php";
 		return "profile.php";
 	}
+	function contact_add(){
+		return "contact.add.php";
+	}
+	function non_user_contact_delete(){
+		return "non_user_contact.delete.php";	
+	}
+	function non_user_contact_notifications(){
+		return "non_user_contact.notifications.php";	
+	}
+	function non_user_contact_notifications_set(){
+		return "non_user_contact.notifications.set.php";	
+	}
+	function non_user_contact_notifications_create(){
+		return "non_user_contact.notifications.php";
+	}
+
 ?>

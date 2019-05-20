@@ -1,7 +1,7 @@
 <?php
         foreach($records as $record){
 	?>  
-	<tr>
+	<tr><td>Record</td>
         <td>
                 <?php echo $record["name"];?>
         </td>

@@ -4,7 +4,7 @@ foreach($data as $datum){
         $name = $datum["name"];
         $value = $datum["value"];
         ?>  
-        <tr>
+        <tr><td>Datum</td>
                 <td>
                         <?php echo $name; ?>    
                 </td>

@@ -28,7 +28,7 @@
 					<input type="submit" id="add" name="add" value="Add Contact"/>
 						<span class="help" >?
 							<span>
-							If your contact does not have a SingleRecord <br/>account you can use his or her e-mail to send updates.
+							If your contact does not have a SingleRecord <br/>account you can use his or her phone number or e-mail to send updates.
 							</span>
 						</span>
 					</td>

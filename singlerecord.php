@@ -9,6 +9,7 @@
 		return "<input type=\"hidden\" id=\"$name\" name=\"$name\" value=\"$value\"/>";	
 	}
 	function is_phone_number($s){
+		// begins with + and all other characters are digits
 		return	preg_match('/\+[^\d]/',$s) == 0
 			&& 
 			strlen($s) == 12;
@@ -152,9 +153,9 @@
 				$username = $user["username"];
 				$dataname = $data->getName($this);
 				$datavalue = $data->getValue($this);
-				$subject = "$username: I have updated some data";
+				$subject = "$username: I have updated some data and you are on my automatic update list. ";
 				$message = "My new $dataname is $datavalue.\r\n";
-				$message .= "Brought to you by <a href=\"https://www.singlerecord.org\">singlerecord.org</a>";
+				$message .= "Brought to you by https://www.singlerecord.org.";
 				if(is_email($method)){
 					//send email
 					$headers = 'From: no-reply@singlerecord.org';
@@ -162,6 +163,7 @@
 				}
 				elseif(is_phone_number($method)){
 					//send sms
+					$message = $subject.$message;
 					$sms_handler = new sms_handler();
 					$yes = $yes && $sms_handler->send_notification($to,$message,Array());
 				}else{
@@ -202,8 +204,12 @@
 			}
 			return $yes;
 		}
-		public function non_user_contact_notification_set_depopulate($owner_id,$contact_id,$contact_type){
-			$query = "DELETE FROM notification_set WHERE owner_id = :owner_id AND contact_id = :contact_id AND contact_type = 'non_user';";
+		public function non_user_contact_notification_set_depopulate($owner_id,$contact_id){
+			// i forgot why i am "depopulating"
+			$query = "DELETE FROM notification_set ";
+			$query.= "WHERE owner_id = :owner_id ";
+			$query.= "AND contact_id = :contact_id ";
+			$query.= "AND contact_type = 'non_user';";
 			return $this->run_query($query,
 				Array(
 					':owner_id'=>$owner_id,
@@ -212,6 +218,7 @@
 			);
 		}
 		public function non_user_contact_notification_set_repopulate($owner_id,$contact_id,$datum_record_array){
+			// i forgot also why i am "repopulating"
 			$results = Array();
 			$query = 'INSERT INTO notification_set (owner_id,contact_id,contact_type,type,datum_record_id) VALUES ';
 			$query .= "(:owner_id,:contact_id,'non_user',:type,:datum_record_id);";
@@ -276,6 +283,18 @@
 				),"fetchAll"
 			);
 			
+		}
+		public function user_get_single_non_user_contact($owner_id,$non_user_contact_id){
+			$query = 'SELECT * FROM non_user_contact '; 
+			$query.= 'WHERE owner = :owner ';
+			$query.= 'AND id = :id;';
+			return $this->run_query($query,
+				Array(
+					':owner'=>$owner_id,
+					':id'=>$non_user_contact_id
+				),"fetch"
+			);
+
 		}
 		public function user_get_non_user_contacts($user_id){
 			$query = 'SELECT * FROM non_user_contact WHERE owner = :owner;';

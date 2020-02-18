@@ -15,8 +15,11 @@
 	<link rel="stylesheet" href="default.css"/>
 </head>
 <body>
-	<?php include "signin.logic.php"; ?>
-	<?php include "datum.group.actions.logic.php"; ?>
-	<?php include "datum.group.actions.form.php"; ?>
+<?php 
+	include "signin.logic.php"; 
+	include "datum.group.actions.logic.php"; 
+	include "datum.group.actions.form.php"; 
+	include "record.edit.notifications.php";
+?>
 </body>
 </html>

@@ -52,19 +52,22 @@ tr{
 .help span{
 	background:#FFFFFF;
 	position:fixed;
-	left:5vw;
-	top:5vh;
+	left:5%;
 	border: 5px solid #DFDFDF;
 	border-radius: 15px;
 	padding:10px 10px;
-	opacity:0;
-	transition: opacity 1s;
+	/*transition: opacity 1s;
+	opacity:0;*/
+	transition: top 1s;
+	top:-25%;
 }
 .help:hover span{
-	opacity:1;
+	/*opacity:1;*/
+	top:5%;
 }
 .help span:hover{
-	opacity:0;
+	/*opacity:0;*/
+	top:-25%;
 }
 
 

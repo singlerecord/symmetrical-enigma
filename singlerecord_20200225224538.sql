@@ -1,0 +1,1 @@
+CREATE TABLE `singlerecord`.`generated_notifications` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `datum_id` INT(255) NOT NULL , `contact_type` INT(255) NOT NULL COMMENT '0 for user, 1 for non_user_contact' , `contact_id` INT(255) NOT NULL , `TIMESTAMP` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;

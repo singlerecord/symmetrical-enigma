@@ -158,14 +158,16 @@
 				$message .= "Brought to you by https://www.singlerecord.org.";
 				if(is_email($method)){
 					//send email
-					$headers = 'From: no-reply@singlerecord.org';
-					$yes = $yes && mail($to,$subject,$message,$headers);
+					//$headers = 'From: no-reply@singlerecord.org';
+					//$yes = $yes && mail($to,$subject,$message,$headers);
 				}
 				elseif(is_phone_number($method)){
 					//send sms
 					$message = $subject.$message;
 					$sms_handler = new sms_handler();
 					$yes = $yes && $sms_handler->send_notification($to,$message,Array());
+					// save notification details
+
 				}else{
 					echo err_num("notification","method");
 					return FALSE;	

@@ -3,10 +3,9 @@
 ## Your single data store.
 singlerecord is the last link in the data security challenge
 it solves security, by making you part of the equation
-it solves accountability, by making singlerecord developers responsible
-for mistakes
+it solves accountability, by making everyone part of the solution
 it solves spam: you no longer share your most important pieces of data;
-you share single use pointers to that data
+you share single use pointers (it is like a cheap burner phone) to that data
 it solves the worst case scenario for data updates:
 say you and your friend change your phone on the same day,
 you both no longer have access to the previous phone, so from your new

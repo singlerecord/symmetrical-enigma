@@ -1,0 +1,8 @@
+when i update a piece of data, singlerecord performs the following checks:
+1. filter contacts that have been added to the unsubscribe-list
+2.a counts every sms in the list of contacts to be notified
+2.b checks if owner has balance in his budget for all sms notifications (has-balance)
+3. sends notifications to Queue
+4.a if a message is in Queue, and there is NO past notification prior to 24 hours, send notifications
+4.b else keep in Queue until 24 hours from last notification
+
